@@ -9,7 +9,7 @@ import {
   getDatabyUserId,
 } from "../controllers/contact.js";
 
-import { isAuthenticated } from "../Middlewares/Auth.js";
+import { isAuthenticated } from "../Middlewares/auth.js";
 
 const router = express.Router();
 
